@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  background: transparent;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  width: 420px;
+  backdrop-filter: blur(10px);
+  height: 350px;
+}
+
+.container h2{
+
+    color: floralwhite;
+    text-indent: 15px;
+}
+
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+  background: transparent;
+  border-radius: 60px;
+  height: 30px;
+}
+input::placeholder{
+    color: white;
+    text-indent: 15px;
+}
+
+button {
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+  border-radius: 80px;
+  width: 90%;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color:dimgray ;
